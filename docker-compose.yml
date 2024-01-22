@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  db:
+    image: postgres
+    container_name: pg_beauty-bar
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: beauty_bar
+
+  beauty_bar_server:
+    depends_on:
+      - db
+    container_name: beauty_bar_server
+    build:
+      context: ./beauty-bar
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_APPLICATION_JSON: '{
+           "spring.datasource.url"  : "jdbc:postgresql://db:5432/beauty_bar",
+           "spring.datasource.username" : "postgres",
+           "spring.datasource.password" : "root",
+           "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.PostgreSQLDialect",
+           "spring.jpa.hibernate.ddl-auto" : "update"
+         }'
+    restart: on-failure
+  client:
+      build: ./beauty-bar-client
+      restart: on-failure
+      ports:
+        - "3000:3000"

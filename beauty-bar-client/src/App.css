@@ -1,0 +1,219 @@
+.logo, h3, h4, h1 {
+  font-family: 'Unbounded', sans-serif;
+}
+a{
+  text-decoration: none !important;
+}
+h3{
+  background-color: rgb(211, 215, 183);
+}
+.main-colour{
+  background-color: rgb(211, 215, 183);
+}
+.secondary-colour{
+  background-color: rgb(25,34,27);
+}
+.accent-colour{
+  background-color: rgb(158,89,85);
+}
+.accent-element-colour{
+  color: rgb(158,89,85);
+}
+.secondary-element-colour{
+  color: rgb(25,34,27);
+}
+.main-element-colour{
+  color: rgb(211, 215, 183);
+}
+
+.main-btn{
+  min-width: 200px;
+}
+.accent-btn{
+  font-size: 20px;
+  color: rgb(211, 215, 183);
+  background-color: rgb(158,89,85);
+}
+.main-colour-btn{
+  font-size: 20px;
+  color: rgb(25,34,27);
+  background-color: rgb(211, 215, 183);
+}
+.main-colour-btn:hover{
+  filter: brightness(80%) !important;
+}
+#main-banner{
+  background-image: linear-gradient(to bottom, rgba(25,34,27, 0.9) 0%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0.1) 100%), url('./resources/images/main-salon-img.png');
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-header{
+  font-size: 80px;
+}
+.accent-text{
+  font-size: 26px;
+  width: 80%;
+}
+.makeup-main-block{
+  background-image: url(./resources/images/makeup-main.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px rgba(25,34,27, 1);
+}
+.hair-main-block{
+  background-image: url(./resources/images/hair-main.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px rgba(25,34,27, 1);
+
+}
+.nails-main-block{
+  background-image: url(./resources/images/nails-main.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px rgba(25,34,27, 1);
+
+}
+.categories-banner-text{
+  font-size: 18px;
+  text-align: justify;
+  width: 70%;
+}
+.form-style{
+  min-height: 12vh;
+}
+.auth-btn{
+  width: 200px;
+  border: 1px rgb(211, 215, 183) solid;
+  color: rgb(211, 215, 183);
+}
+.auth-btn:hover{
+  background-color: rgb(211, 215, 183) !important;
+  color: rgb(25,34,27) !important;
+}
+.form-control:focus {
+  border-color: rgb(211, 215, 183);
+  box-shadow: 0 0 0 .2rem rgb(211, 215, 183) !important;
+}
+
+.background-container{
+  background: linear-gradient(90deg, rgba(158,89,85,0.5) 0%, rgba(211,215,183,0.5) 37%, rgba(158,89,85,0.3) 67%, rgba(211,215,183,0.5) 93%);
+}
+.accent-link:hover {
+  filter: brightness(80%) !important;
+  color: rgb(158,89,85) !important;
+}
+.main-link:hover {
+  filter: brightness(80%) !important;
+  color: rgb(211, 215, 183) !important;
+}
+.main-btn:hover {
+  filter: brightness(80%) !important;
+}
+
+.hair-category-block{
+  background-image: linear-gradient(to bottom, rgba(25,34,27, 0.8) 0%, rgba(25,34,27, 0.8) 100%), url(./resources/images/hair-category-procedure.png);
+}
+.hair-category-block:hover{
+  background-image:  linear-gradient(to bottom, rgba(25,34,27, 0.5) 0%, rgba(25,34,27, 0.5) 100%), url(./resources/images/hair-category-procedure.png);
+}
+.makeup-category-block{
+  background-image: linear-gradient(to bottom, rgba(25,34,27, 0.8) 0%, rgba(25,34,27, 0.8) 100%), url(./resources/images/makeup-category-procedure.png);
+}
+.makeup-category-block:hover{
+  background-image: linear-gradient(to bottom, rgba(25,34,27, 0.5) 0%, rgba(25,34,27, 0.5) 100%), url(./resources/images/makeup-category-procedure.png);
+}
+.nails-category-block{
+  background-image: linear-gradient(to bottom, rgba(25,34,27, 0.8) 0%, rgba(25,34,27, 0.8) 100%), url(./resources/images/nails-category-main.png);
+  
+}
+.nails-category-block:hover{
+  background-image: linear-gradient(to bottom, rgba(25,34,27, 0.5) 0%, rgba(25,34,27, 0.5) 100%), url(./resources/images/nails-category-main.png);
+}
+
+.category-block{
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  transition: transform 0.3s ease;
+}
+.category-block:hover{
+  transform: scale(1.1);
+}
+.category-link-block:hover{
+  z-index: 2;
+}
+.category-header{
+  font-size: 52px;
+  transition: transform 0.3s ease;
+}
+.category-block:hover .category-header {
+  transform: scale(1.2);
+
+}
+.procedure-description{
+  font-size: 20px;
+}
+.procedure-info-row{
+  border-top: 2px solid rgb(25,34,27); /* Adjust color and width as needed */
+  border-bottom: 2px solid rgb(25,34,27);
+  margin-top: 20px;
+}
+.procedure-title{
+  border-radius: 0 0 0 10px;
+  padding: 10px;
+}
+.fc{
+  background-color:rgba(158,89,85, 0.5) !important;
+  height: 75vh;
+}
+.fc-col-header-cell-cushion, .fc-daygrid-day-number{
+  color: rgb(25,34,27) !important;
+}
+.fc-button-primary{
+  background-color: rgb(211, 215, 183) !important;
+  color: rgb(25,34,27) !important;
+}
+.btn-appointment-time{
+  background-color: rgb(211, 215, 183);
+  color: rgb(25,34,27);
+  width: 100px;
+  border: 1px solid rgb(25,34,27);
+  border-radius: 10px;
+  margin: 5px;
+
+}
+.appointment-employee-name{
+  color: rgb(25,34,27);
+  font-size: 20px;
+}
+.receipt-info{
+  font-size: 20px;
+}
+.custom-tab-panel{
+  background-color: rgb(211, 215, 183) !important;
+}
+.shelf-page-controls{
+  color:rgb(25,34,27) !important;
+}
+.text-size-20{
+  font-size: 20px;
+}
+.admin-control{
+  background-color: rgb(211, 215, 183);
+  border: 1px solid rgb(25,34,27);
+  color: rgba(158,89,85);
+}
+
+.scrollable-container {
+  max-height: 1000px;
+  overflow-y: auto;
+}
