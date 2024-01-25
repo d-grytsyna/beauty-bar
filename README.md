@@ -4,10 +4,10 @@ Schedule appointments, gather feedback, and simplify payments with ease.
 ### Backend Tech Stack
 - **Spring Boot:**
   - **Data JPA:** Java Persistence API for seamless database interactions.
-  - **Data Rest:** Exposing domain-driven RESTful APIs effortlessly.
+  - **Data Rest:** Exposing domain-driven RESTful APIs.
   - **Security:** Ensuring secure authentication and authorization.
-  - **Web:** Building robust web applications.
-  - **Mail:** Integrating email functionalities for communication.
+  - **Web:** Building web applications.
+  - **Mail:** Integrating email functionalities for reminders.
 
 - **Stripe:** Handling payment processing on the server side.
 
@@ -21,9 +21,9 @@ Schedule appointments, gather feedback, and simplify payments with ease.
 
 - **React + Typescript:** Building a dynamic and interactive user interface.
 - **Fullcalendar:** Handling and displaying calendar-related functionalities.
-- **Stripe:** Integrating secure and seamless payment processing.
-- **Axios:** Making HTTP requests for efficient communication with the backend.
-- **Formik:** Managing and validating forms with ease.
+- **Stripe:** Integrating secure payment processing.
+- **Axios:** Making HTTP requests for communication with the backend.
+- **Formik:** Managing and validating forms.
 - **jwt-decode:** Decoding JSON Web Tokens for secure user authentication.
 - **Yup:** Schema-based form validation for ensuring data integrity.
 - **npm:** Package manager for JavaScript to handle project dependencies.
@@ -49,7 +49,7 @@ _Sign up:_
 <img width="400" alt="Signup" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/74ea239c-ad2f-4b19-aca4-38602cb313d9">
 </div>
 
-### Authenticated user features:
+### Authenticated user:
 
 _Make an appointment:_
 <div align="center">
@@ -82,9 +82,84 @@ _Check your receipts and history:_
     <div align="center"> Choose your receipt and enter the credit card info: </div>
     <img width="400" alt="payment" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/b3cefb81-7407-4103-9408-8471268640b5">
       <br><br>
-    <div align="center"> Check your payment in history: </div>  
+    <div align="center"> Check your payment history: </div>  
   <img width="400" alt="payment-history" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/c7e834e1-537c-4110-88e4-7d9a14853803">
+</div>
+  <br><br>
+
+_Write messages to admin & check replies:_
+<div align="center">
+  <img width="400" alt="message" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/70b196d5-4be7-4815-a251-23fe05229b7c">
+      <br><br>
+  <img width="400" alt="message-replies" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/3fc5f69e-efad-40a6-bbd8-7c253a92cf6a">
+</div>
+  <br><br>
+  
+_Edit your profile:_
+<div align="center">
+<img width="400" alt="profile" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/99426d24-7f80-4f2e-a391-827f6c9ee94b">
+</div>
+  <br><br>
+
+
+### Employee:
+_Check your clients' appointments & change the status:_
+<div align="center">
+<img width="400" alt="cliens" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/c8d3a29b-54ae-42a8-9af2-49b94310c8ef">
 
 </div>
+  <br><br>
 
+### Admin:
+_Manage employees:_
+<div align="center">
+  <img width="400" alt="employees" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/2345c5d9-03db-4c80-9bb2-951d641005a6">
+  <br><br>
+  <div>
+    
+   <i> Add, edit, delete:</i>
+    
+  <img width="250" alt="edit-employee" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/d89e3972-e10a-495d-94a6-5f8b8e96fce8">
+<img width="245" alt="add-employee" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/de91828c-7d5a-4f20-b5cc-ff5ba620877f">
+
+  </div>
+</div>
+  <br><br>
+
+_Manage procedures:_
+<div align="center">
+<img width="400" alt="manage-procedures" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/575c9f27-51c9-46fd-9615-71cb26504093">
+  <br><br>
+  <div>
+   <i> Add, edit, delete:</i>
+    <br><br>
+  <img width="250" alt="edit-procedure" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/e64708c9-7c28-4fff-b0c4-0440d7feab19">
+  <img width="250" alt="add-procedure" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/30170d88-f3db-47c0-aa4f-07eedeff9c06">
+
+  </div>
+</div>
+  <br><br>
+
+_Manage accounts, change roles:_
+<div align="center">
+  <img width="500" alt="accounts" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/c338f181-b120-436b-b986-21866f6a858e">
+</div>
+  <br><br>
+  
+_Reply to client messages:_
+<div align="center">
+  <img width="500" alt="message-reply" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/89d85ac1-cfcd-4e28-9318-28a59928564e">
+  </div>
+  <br><br>
+
+_Check clients' appointments, chage appointment or payment status, send email reminders:_
+<div align="center">
+   <img width="500" alt="appointments-admin" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/034ab902-7ccd-41a9-9989-98f87e4a7de2">
+  <br>  <br>
+   <i> Reminder message: </i>
+   <br>  <br>
+   <img width="400" alt="email-message" src="https://github.com/d-grytsyna/beauty-bar/assets/129409885/a9782acd-4ef6-46de-8d8a-8fd55faed483">
+
+  </div>
+  <br><br>
 
