@@ -8,13 +8,9 @@ Schedule appointments, gather feedback, and simplify payments with ease.
   - **Security:** Ensuring secure authentication and authorization.
   - **Web:** Building web applications.
   - **Mail:** Integrating email functionalities for reminders.
-
 - **Stripe:** Handling payment processing on the server side.
-
 - **Lombok:** Reducing boilerplate code to enhance code readability.
-
 - **Mapstruct:** Simplifying mapping between Java bean types.
-
 - **Maven:** Dependency management and project build automation.
 
 ### Frontend Tech Stack
